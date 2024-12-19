@@ -138,6 +138,7 @@ body {
     font-size: 1.5rem;
     text-align: center;
     padding: 5px;
+    color: #FFB100;
 }
 
 .head-title{
@@ -335,6 +336,100 @@ body {
 .play-button:hover {
     background-color: #FA4032;
 }
+
+
+/* Footer Styling */
+.footer {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    background: #212121; 
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15), 0 0 10px rgba(255, 255, 255, 0.1);
+
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #FFB100;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li:hover {
+    color: #FFB100;
+}
+
+.footer-social-icons i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-social-icons i:hover {
+    color: #FFB100;
+}
+
+.payment-icons img {
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.payment-icons img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    background: #212121; /* Arka plan uyumu */
+    border-radius: 20px;
+    overflow: hidden; /* Taşmayı engeller */
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15), 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom a {
+    color: #FFB100;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
 
 
 
