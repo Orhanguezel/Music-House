@@ -1,6 +1,7 @@
-const menuToggle = document.getElementById('menu-toggle');
-        const sidebar = document.getElementById('sidebar');
+const menuToggle = document.querySelector('.menu-toggle');
+const sidebar = document.querySelector('.sidebar');
 
-        menuToggle.addEventListener('click', () => {
-            sidebar.classList.toggle('show');
-        });
+menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('open'); // Hamburger menüyü X'e dönüştür
+    sidebar.classList.toggle('show');    // Sidebar aç/kapat
+});
