@@ -23,11 +23,22 @@
             <h1>Music House</h1>
             <nav>
                 <ul>
-                    <li>News Feed</li>
-                    <li>Browse</li>
-                    <li>Watchlist</li>
-                    <li>Booking</li>
-                    <li>Following</li>
+                    <li>Most Popular</li>
+                    <li>Genres
+                        <ul>
+                            <li>Pop</li>
+                            <li>Rock</li>
+                            <li>Jazz</li>
+                            <li>Classical</li>
+                            <li>Hip-Hop</li>
+                            <li>Electronic</li>
+                        </ul>
+                    </li>
+                    <li>Top Rated</li>
+                    <li>New Releases</li>
+                    <li>My Playlist</li>
+                    <li>Recently Played</li>
+                    <li>Favorites</li>
                 </ul>
             </nav>
         </aside>
@@ -50,35 +61,31 @@
             </div>
 
             <!-- Upcoming Section -->
-            <section class="upcoming">
+            <h2 class="section-title">Upcoming</h2>
+            <section id="upcoming" class="upcoming">
                 <div class="banner">
-                    <img src="https://via.placeholder.com/800x300" alt="Upcoming Movie">
+                    <iframe
+                        id="youtube-player"
+                        src=""
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen
+                    ></iframe>
                 </div>
             </section>
+            
 
-            <!-- Latest Movies -->
-            <section class="latest-movies">
-                <div class="movie-card">
-                    <img src="https://via.placeholder.com/150" alt="Spider Man">
-                    <h4>Spider Man</h4>
-                    <div class="rating">8.0</div>
-                </div>
-                <div class="movie-card">
-                    <img src="https://via.placeholder.com/150" alt="Batman">
-                    <h4>Batman</h4>
-                    <div class="rating">8.0</div>
-                </div>
-                <div class="movie-card">
-                    <img src="https://via.placeholder.com/150" alt="Avengers">
-                    <h4>Avengers</h4>
-                    <div class="rating">8.0</div>
-                </div>
+            <!-- Latest Music -->
+            <h2 class="section-title">Latest Music</h2>
+            <section id="latest-music" class="latest-music">
+                
             </section>
         </main>
     </div>
 
     <!-- JavaScript -->
-    <script src="mean.js">
-    </script>
+    <script src="navbar.js"></script>
+    <script src="main.js"></script>
+
 </body>
 </html>
